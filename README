@@ -1,9 +1,5 @@
-Set Password
-  - own controller
-  - own protocol?
-Reset Password
-  - own controller
-  - own protocol?
-Enter Password
- - move gesture handlers to protocol
- - have own controller?
+README COMING SOON…
+
+FINISHING BLOG POST WITH DETAILS
+
+If you clone and run the app make sure you open debug console or you won't see any of the gesture information.  This is still pre-alpha.
