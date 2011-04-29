@@ -35,6 +35,7 @@
     NSArray *gestsArray = [NSKeyedUnarchiver unarchiveObjectWithData:passwordGestureData];
     
     if (gestsArray != nil) {
+      
       for (id obj in gestsArray) {
         NSLog(@"object in password: %@", obj);
       }
