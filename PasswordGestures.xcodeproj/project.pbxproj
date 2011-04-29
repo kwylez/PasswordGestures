@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0134DBE612A58A0E00ABB1CB /* SetPasswordGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0134DBE512A58A0E00ABB1CB /* SetPasswordGestureViewController.m */; };
+		0134DBF212A5910500ABB1CB /* ProtectedInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0134DBF112A5910500ABB1CB /* ProtectedInfoViewController.m */; };
+		0134DBF512A5925C00ABB1CB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0134DBF412A5925C00ABB1CB /* LoginViewController.m */; };
+		0161C5E3129312B30062C76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0161C5E2129312B30062C76E /* UIKit.framework */; };
+		0161C5E5129312B30062C76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0161C5E4129312B30062C76E /* Foundation.framework */; };
+		0161C5E7129312B30062C76E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0161C5E6129312B30062C76E /* CoreGraphics.framework */; };
+		0161C5EC129312B30062C76E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0161C5EA129312B30062C76E /* InfoPlist.strings */; };
+		0161C5EE129312B30062C76E /* PasswordGestures-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0161C5ED129312B30062C76E /* PasswordGestures-main.m */; };
+		0161C5F1129312B30062C76E /* PasswordGesturesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0161C5F0129312B30062C76E /* PasswordGesturesAppDelegate.m */; };
+		0161C5F4129312B30062C76E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0161C5F2129312B30062C76E /* MainWindow.xib */; };
+		0161C5F7129312B30062C76E /* PasswordGesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0161C5F6129312B30062C76E /* PasswordGesturesViewController.m */; };
+		0161C5FA129312B30062C76E /* PasswordGesturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0161C5F8129312B30062C76E /* PasswordGesturesViewController.xib */; };
+		016869EC12A4AF6B006CA98D /* README in Resources */ = {isa = PBXBuildFile; fileRef = 016869EB12A4AF6B006CA98D /* README */; };
+		01BF1DB912CA7AC80053DDB2 /* PasswordReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF1DB812CA7AC80053DDB2 /* PasswordReminderViewController.m */; };
+		01BF1DC112CA84BC0053DDB2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BF1DC012CA84BC0053DDB2 /* AssetsLibrary.framework */; };
+		01C2EBDB129B0F0D00A82760 /* PasswordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C2EBDA129B0F0D00A82760 /* PasswordManager.m */; };
+		01EE19D2129A2839000CFD23 /* PanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EE19D1129A2839000CFD23 /* PanGesture.m */; };
+		01EE19D5129A2886000CFD23 /* TapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EE19D4129A2886000CFD23 /* TapGesture.m */; };
+		01EE19D8129A2896000CFD23 /* RotateGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EE19D7129A2896000CFD23 /* RotateGesture.m */; };
+		01EE19DB129A291F000CFD23 /* PinchGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EE19DA129A291F000CFD23 /* PinchGesture.m */; };
+		01EE19DE129A2932000CFD23 /* SwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EE19DD129A2932000CFD23 /* SwipeGesture.m */; };
+		01EE19E1129A2943000CFD23 /* LongPressGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EE19E0129A2943000CFD23 /* LongPressGesture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0134DBE012A5887200ABB1CB /* PasswordGestureProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordGestureProtocol.h; sourceTree = "<group>"; };
+		0134DBE412A58A0E00ABB1CB /* SetPasswordGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPasswordGestureViewController.h; sourceTree = "<group>"; };
+		0134DBE512A58A0E00ABB1CB /* SetPasswordGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPasswordGestureViewController.m; sourceTree = "<group>"; };
+		0134DBF012A5910500ABB1CB /* ProtectedInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectedInfoViewController.h; sourceTree = "<group>"; };
+		0134DBF112A5910500ABB1CB /* ProtectedInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtectedInfoViewController.m; sourceTree = "<group>"; };
+		0134DBF312A5925C00ABB1CB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0134DBF412A5925C00ABB1CB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0161C5DF129312B30062C76E /* PasswordGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0161C5E2129312B30062C76E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0161C5E4129312B30062C76E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0161C5E6129312B30062C76E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0161C5E8129312B30062C76E /* PasswordGestures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasswordGestures-Info.plist"; sourceTree = "<group>"; };
+		0161C5E9129312B30062C76E /* PasswordGestures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PasswordGestures-Prefix.pch"; sourceTree = "<group>"; };
+		0161C5EB129312B30062C76E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0161C5ED129312B30062C76E /* PasswordGestures-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PasswordGestures-main.m"; sourceTree = "<group>"; };
+		0161C5EF129312B30062C76E /* PasswordGesturesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordGesturesAppDelegate.h; sourceTree = "<group>"; };
+		0161C5F0129312B30062C76E /* PasswordGesturesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordGesturesAppDelegate.m; sourceTree = "<group>"; };
+		0161C5F3129312B30062C76E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0161C5F5129312B30062C76E /* PasswordGesturesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordGesturesViewController.h; sourceTree = "<group>"; };
+		0161C5F6129312B30062C76E /* PasswordGesturesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordGesturesViewController.m; sourceTree = "<group>"; };
+		0161C5F9129312B30062C76E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PasswordGesturesViewController.xib; sourceTree = "<group>"; };
+		016869EB12A4AF6B006CA98D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		01BF1DB712CA7AC80053DDB2 /* PasswordReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordReminderViewController.h; sourceTree = "<group>"; };
+		01BF1DB812CA7AC80053DDB2 /* PasswordReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordReminderViewController.m; sourceTree = "<group>"; };
+		01BF1DC012CA84BC0053DDB2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		01C2EBD9129B0F0D00A82760 /* PasswordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordManager.h; sourceTree = "<group>"; };
+		01C2EBDA129B0F0D00A82760 /* PasswordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordManager.m; sourceTree = "<group>"; };
+		01C2EBEE129B176B00A82760 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		01EE19D0129A2839000CFD23 /* PanGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGesture.h; sourceTree = "<group>"; };
+		01EE19D1129A2839000CFD23 /* PanGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGesture.m; sourceTree = "<group>"; };
+		01EE19D3129A2886000CFD23 /* TapGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGesture.h; sourceTree = "<group>"; };
+		01EE19D4129A2886000CFD23 /* TapGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapGesture.m; sourceTree = "<group>"; };
+		01EE19D6129A2896000CFD23 /* RotateGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateGesture.h; sourceTree = "<group>"; };
+		01EE19D7129A2896000CFD23 /* RotateGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateGesture.m; sourceTree = "<group>"; };
+		01EE19D9129A291F000CFD23 /* PinchGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchGesture.h; sourceTree = "<group>"; };
+		01EE19DA129A291F000CFD23 /* PinchGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchGesture.m; sourceTree = "<group>"; };
+		01EE19DC129A2932000CFD23 /* SwipeGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeGesture.h; sourceTree = "<group>"; };
+		01EE19DD129A2932000CFD23 /* SwipeGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeGesture.m; sourceTree = "<group>"; };
+		01EE19DF129A2943000CFD23 /* LongPressGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressGesture.h; sourceTree = "<group>"; };
+		01EE19E0129A2943000CFD23 /* LongPressGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressGesture.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0161C5DC129312B30062C76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0161C5E3129312B30062C76E /* UIKit.framework in Frameworks */,
+				0161C5E5129312B30062C76E /* Foundation.framework in Frameworks */,
+				0161C5E7129312B30062C76E /* CoreGraphics.framework in Frameworks */,
+				01BF1DC112CA84BC0053DDB2 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0134DBDF12A5884900ABB1CB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0134DBE012A5887200ABB1CB /* PasswordGestureProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		0134DBE312A589E900ABB1CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0161C5F5129312B30062C76E /* PasswordGesturesViewController.h */,
+				0161C5F6129312B30062C76E /* PasswordGesturesViewController.m */,
+				0134DBE412A58A0E00ABB1CB /* SetPasswordGestureViewController.h */,
+				0134DBE512A58A0E00ABB1CB /* SetPasswordGestureViewController.m */,
+				0134DBF012A5910500ABB1CB /* ProtectedInfoViewController.h */,
+				0134DBF112A5910500ABB1CB /* ProtectedInfoViewController.m */,
+				0134DBF312A5925C00ABB1CB /* LoginViewController.h */,
+				0134DBF412A5925C00ABB1CB /* LoginViewController.m */,
+				01BF1DB712CA7AC80053DDB2 /* PasswordReminderViewController.h */,
+				01BF1DB812CA7AC80053DDB2 /* PasswordReminderViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0161C5D0129312B20062C76E = {
+			isa = PBXGroup;
+			children = (
+				0161C5D7129312B30062C76E /* Classes */,
+				0161C5D8129312B30062C76E /* Other Sources */,
+				0161C5D9129312B30062C76E /* Resources */,
+				0161C5DA129312B30062C76E /* Frameworks */,
+				0161C5E0129312B30062C76E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0161C5D7129312B30062C76E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0134DBE312A589E900ABB1CB /* Controllers */,
+				0134DBDF12A5884900ABB1CB /* Protocol */,
+				01C2EBD7129B0EEF00A82760 /* Utils */,
+				01EE19CE129A27CD000CFD23 /* Models */,
+				0161C5EF129312B30062C76E /* PasswordGesturesAppDelegate.h */,
+				0161C5F0129312B30062C76E /* PasswordGesturesAppDelegate.m */,
+				01C2EBEE129B176B00A82760 /* Constants.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0161C5D8129312B30062C76E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0161C5E9129312B30062C76E /* PasswordGestures-Prefix.pch */,
+				0161C5ED129312B30062C76E /* PasswordGestures-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		0161C5D9129312B30062C76E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0161C5E8129312B30062C76E /* PasswordGestures-Info.plist */,
+				0161C5EA129312B30062C76E /* InfoPlist.strings */,
+				0161C5F2129312B30062C76E /* MainWindow.xib */,
+				0161C5F8129312B30062C76E /* PasswordGesturesViewController.xib */,
+				016869EB12A4AF6B006CA98D /* README */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0161C5DA129312B30062C76E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0161C5E2129312B30062C76E /* UIKit.framework */,
+				0161C5E4129312B30062C76E /* Foundation.framework */,
+				0161C5E6129312B30062C76E /* CoreGraphics.framework */,
+				01BF1DC012CA84BC0053DDB2 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0161C5E0129312B30062C76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0161C5DF129312B30062C76E /* PasswordGestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01C2EBD7129B0EEF00A82760 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01C2EBD9129B0F0D00A82760 /* PasswordManager.h */,
+				01C2EBDA129B0F0D00A82760 /* PasswordManager.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		01EE19CE129A27CD000CFD23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01EE19D0129A2839000CFD23 /* PanGesture.h */,
+				01EE19D1129A2839000CFD23 /* PanGesture.m */,
+				01EE19D3129A2886000CFD23 /* TapGesture.h */,
+				01EE19D4129A2886000CFD23 /* TapGesture.m */,
+				01EE19D6129A2896000CFD23 /* RotateGesture.h */,
+				01EE19D7129A2896000CFD23 /* RotateGesture.m */,
+				01EE19D9129A291F000CFD23 /* PinchGesture.h */,
+				01EE19DA129A291F000CFD23 /* PinchGesture.m */,
+				01EE19DC129A2932000CFD23 /* SwipeGesture.h */,
+				01EE19DD129A2932000CFD23 /* SwipeGesture.m */,
+				01EE19DF129A2943000CFD23 /* LongPressGesture.h */,
+				01EE19E0129A2943000CFD23 /* LongPressGesture.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0161C5DE129312B30062C76E /* PasswordGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0161C5FD129312B30062C76E /* Build configuration list for PBXNativeTarget "PasswordGestures" */;
+			buildPhases = (
+				0161C5DB129312B30062C76E /* Sources */,
+				0161C5DC129312B30062C76E /* Frameworks */,
+				0161C5DD129312B30062C76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordGestures;
+			productName = PasswordGestures;
+			productReference = 0161C5DF129312B30062C76E /* PasswordGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0161C5D2129312B20062C76E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0161C5D5129312B20062C76E /* Build configuration list for PBXProject "PasswordGestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0161C5D0129312B20062C76E;
+			productRefGroup = 0161C5E0129312B30062C76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0161C5DE129312B30062C76E /* PasswordGestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0161C5DD129312B30062C76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0161C5EC129312B30062C76E /* InfoPlist.strings in Resources */,
+				0161C5F4129312B30062C76E /* MainWindow.xib in Resources */,
+				0161C5FA129312B30062C76E /* PasswordGesturesViewController.xib in Resources */,
+				016869EC12A4AF6B006CA98D /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0161C5DB129312B30062C76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0161C5EE129312B30062C76E /* PasswordGestures-main.m in Sources */,
+				0161C5F1129312B30062C76E /* PasswordGesturesAppDelegate.m in Sources */,
+				0161C5F7129312B30062C76E /* PasswordGesturesViewController.m in Sources */,
+				01EE19D2129A2839000CFD23 /* PanGesture.m in Sources */,
+				01EE19D5129A2886000CFD23 /* TapGesture.m in Sources */,
+				01EE19D8129A2896000CFD23 /* RotateGesture.m in Sources */,
+				01EE19DB129A291F000CFD23 /* PinchGesture.m in Sources */,
+				01EE19DE129A2932000CFD23 /* SwipeGesture.m in Sources */,
+				01EE19E1129A2943000CFD23 /* LongPressGesture.m in Sources */,
+				01C2EBDB129B0F0D00A82760 /* PasswordManager.m in Sources */,
+				0134DBE612A58A0E00ABB1CB /* SetPasswordGestureViewController.m in Sources */,
+				0134DBF212A5910500ABB1CB /* ProtectedInfoViewController.m in Sources */,
+				0134DBF512A5925C00ABB1CB /* LoginViewController.m in Sources */,
+				01BF1DB912CA7AC80053DDB2 /* PasswordReminderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0161C5EA129312B30062C76E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0161C5EB129312B30062C76E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0161C5F2129312B30062C76E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0161C5F3129312B30062C76E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0161C5F8129312B30062C76E /* PasswordGesturesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0161C5F9129312B30062C76E /* en */,
+			);
+			name = PasswordGesturesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0161C5FB129312B30062C76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0161C5FC129312B30062C76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0161C5FE129312B30062C76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordGestures-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "PasswordGestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0161C5FF129312B30062C76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordGestures-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "PasswordGestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0161C5D5129312B20062C76E /* Build configuration list for PBXProject "PasswordGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0161C5FB129312B30062C76E /* Debug */,
+				0161C5FC129312B30062C76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0161C5FD129312B30062C76E /* Build configuration list for PBXNativeTarget "PasswordGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0161C5FE129312B30062C76E /* Debug */,
+				0161C5FF129312B30062C76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0161C5D2129312B20062C76E /* Project object */;
+}

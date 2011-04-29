@@ -1,0 +1,9 @@
+Set Password
+  - own controller
+  - own protocol?
+Reset Password
+  - own controller
+  - own protocol?
+Enter Password
+ - move gesture handlers to protocol
+ - have own controller?
